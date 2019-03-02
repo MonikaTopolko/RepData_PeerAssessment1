@@ -1,13 +1,10 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
-
-author: "author: Monika Topolko"
+author: "Monika Topolko"
 output: 
   html_document:
     keep_md: true
 ---
-
-
 
 ## Loading and preprocessing the data
 
@@ -20,7 +17,7 @@ library(plyr)
 2. Process/transform the data (if necessary) into a format suitable for your analysis.
 
 ```{r, echo=TRUE}
-activity_data <- read.csv("./activity/activity.csv", header=TRUE)
+activity_data <- read.csv("./activity.csv", header=TRUE)
 ```
 
 ## What is mean total number of steps taken per day?
